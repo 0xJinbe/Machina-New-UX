@@ -109,7 +109,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 20px;
-  background-color: #ee8842;
+  background-color: #ed872d;
 }
 
 .image-os {
@@ -481,7 +481,7 @@ body {
 
 .herosubheading {
   position: relative;
-  color: #ff8040;
+  color: #ed872d;
   font-size: 16px;
   line-height: 1;
 }
@@ -582,7 +582,7 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 150px;
-  box-shadow: 24px 32px 40px -20px #ffa86c;
+  box-shadow: 24px 32px 40px -20px #ed872d;
 }
 
 .circleiconleft {
@@ -670,14 +670,14 @@ body {
 
 .uppersubheading {
   margin-bottom: 5px;
-  color: #ff8040;
+  color: #ed872d;
   font-size: 1em;
 }
 
 .contentheading {
   margin-top: 0px;
   font-family: Impact, sans-serif;
-  color: #ff8040;
+  color: #ed872d;
   font-size: 2em;
   line-height: 1;
   text-transform: uppercase;
@@ -788,11 +788,12 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  color: #fff;
 }
 
 .manifesttext {
   max-width: 50ch;
-  color: #a8a8a8;
+  color: hsla(0, 0%, 100%, 0.9);
   text-align: center;
 }
 
@@ -838,7 +839,7 @@ body {
 }
 
 .heading-9 {
-  color: #ff8040;
+  color: #ed872d;
 }
 
 .div-block-22 {
@@ -894,7 +895,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 20px;
-  background-color: #ee8842;
+  background-color: #ed872d;
 }
 
 .orsubwrapper {
@@ -1066,7 +1067,7 @@ body {
 
 .headingnavbar {
   font-family: Impact, sans-serif;
-  color: #ff8040;
+  color: #ed872d;
   font-size: 2.5em;
   line-height: 1;
   letter-spacing: 2px;
@@ -1110,6 +1111,7 @@ body {
 }
 
 .manifestoheadingwrapper {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1174,13 +1176,17 @@ body {
 }
 
 .overlay {
-  position: relative;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1194,9 +1200,12 @@ body {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 30px;
-  background-image: url('../images/Machina_Image_1.jpeg');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.bold-text-2 {
+  color: #ed872d;
 }
 
 @media screen and (min-width: 1280px) {
