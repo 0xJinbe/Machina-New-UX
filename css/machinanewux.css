@@ -470,7 +470,9 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 40vh;
+  height: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -518,6 +520,8 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
@@ -976,7 +980,7 @@ body {
 }
 
 .teamsection {
-  height: 70vh;
+  height: auto;
 }
 
 .teamwrapper {
@@ -986,9 +990,9 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100%;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
