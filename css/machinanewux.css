@@ -123,7 +123,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: auto;
-  max-height: 180vh;
+  max-height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -187,11 +187,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 100vw;
-  height: 80vh;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -203,7 +203,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 25vh;
+  height: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -221,6 +221,8 @@ body {
 
 .paragraph {
   max-width: 80ch;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -1149,6 +1151,9 @@ body {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+  background-image: url('../images/landing_page_nancy.png');
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .backgroundvideo2 {
@@ -1173,6 +1178,8 @@ body {
   top: 0%;
   right: 0%;
   bottom: 0%;
+  height: auto;
+  max-width: 100%;
 }
 
 .overlay {
@@ -1224,7 +1231,9 @@ body {
   .backgroundvideo1 {
     position: absolute;
     height: auto;
-    background-image: none;
+    background-image: url('../images/landing_page_nancy.png');
+    background-position: 50% 50%;
+    background-size: cover;
   }
 }
 
@@ -1244,7 +1253,7 @@ body {
 
   .sectiontext {
     position: relative;
-    height: 30vh;
+    height: auto;
   }
 
   .herosubheading {
@@ -1324,16 +1333,58 @@ body {
 }
 
 @media screen and (min-width: 1920px) {
+  .container {
+    max-width: 2200px;
+  }
+
   .wrappervideo {
     height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .sectiontext {
-    height: 50vh;
+    height: auto;
   }
 
   .buttonwrapper-left {
     bottom: 20%;
+  }
+
+  .backgroundvideo1 {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .image {
+    position: relative;
+    max-width: 100%;
   }
 }
 
