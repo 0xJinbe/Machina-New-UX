@@ -1509,12 +1509,21 @@ body {
 }
 
 @media screen and (max-width: 991px) {
+  .navbarobject {
+    width: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+  }
+
   .brand {
     left: 15px;
     padding-left: 0px;
   }
 
   .nav-menu {
+    margin-right: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1525,6 +1534,11 @@ body {
   .link-block {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .link-block-opensea {
+    position: relative;
+    bottom: 116px;
   }
 
   .button {
@@ -1792,8 +1806,16 @@ body {
 }
 
 @media screen and (max-width: 479px) {
+  .nav-menu {
+    position: fixed;
+  }
+
   .icon {
     margin-right: 0px;
+  }
+
+  .link-block-opensea {
+    width: 120px;
   }
 
   .button {
@@ -1847,6 +1869,14 @@ body {
 
   .footernavigationwrapper {
     text-align: center;
+  }
+
+  .divrightnavbar {
+    position: fixed;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
   }
 
   .buttonwrapper-left {
