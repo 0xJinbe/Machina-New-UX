@@ -1826,6 +1826,7 @@ body {
   }
 
   .link-block-opensea {
+    bottom: auto;
     width: 120px;
   }
 
@@ -1885,7 +1886,7 @@ body {
   .divrightnavbar {
     position: fixed;
     left: auto;
-    top: 0%;
+    top: 2%;
     right: 0%;
     bottom: auto;
   }
