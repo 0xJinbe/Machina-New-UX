@@ -468,6 +468,10 @@ body {
   flex: 1;
 }
 
+.footerlogo {
+  max-width: 60%;
+}
+
 .herosection {
   height: auto;
 }
